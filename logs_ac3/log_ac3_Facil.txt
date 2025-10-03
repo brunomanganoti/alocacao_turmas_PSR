@@ -333,6 +333,11 @@ Restricao 12 - ['diferenca', ['V5', 'V4'], '#H']
 Restricao 13 - ['IF_P', ['A', 'B', 'V4', 'V5'], '#H']
 Restricao 14 - ['IF_P', ['A', 'B', 'V5', 'V4'], '#H']
 
+Alteracao:
+V1 | Dominio - ['S2'] | Removido - S1
+
+Adicoes:
+
 
 Execucao 2
 Fila:
@@ -349,11 +354,6 @@ Restricao 10 - ['diferenca', ['V4', 'V5'], '#H']
 Restricao 11 - ['diferenca', ['V5', 'V4'], '#H']
 Restricao 12 - ['IF_P', ['A', 'B', 'V4', 'V5'], '#H']
 Restricao 13 - ['IF_P', ['A', 'B', 'V5', 'V4'], '#H']
-
-Alteracao:
-V1 | Dominio - ['S2'] | Removido - S1
-
-Adicoes:
 
 
 Execucao 3
@@ -463,64 +463,56 @@ Restricao 2 - ['diferenca', ['V5', 'V4'], '#H']
 Restricao 3 - ['IF_P', ['A', 'B', 'V4', 'V5'], '#H']
 Restricao 4 - ['IF_P', ['A', 'B', 'V5', 'V4'], '#H']
 
+Alteracao:
+V4 | Dominio - ['H2'] | Removido - H1
+
+Adicoes:
+['IF', ['V1', 'V2', 'V5', 'V4'], '#H']
+['IF', ['V2', 'V1', 'V5', 'V4'], '#H']
+['SEM_DUPLICIDADE', ['H1', 'H2'], '#H']
+
 
 Execucao 12
 Fila:
 Restricao 1 - ['diferenca', ['V5', 'V4'], '#H']
 Restricao 2 - ['IF_P', ['A', 'B', 'V4', 'V5'], '#H']
 Restricao 3 - ['IF_P', ['A', 'B', 'V5', 'V4'], '#H']
-
-Alteracao:
-V5 | Dominio - ['H2'] | Removido - H1
-
-Adicoes:
-['IF', ['V1', 'V2', 'V4', 'V5'], '#H']
-['IF', ['V2', 'V1', 'V4', 'V5'], '#H']
-['diferenca', ['V4', 'V5'], '#H']
-['SEM_DUPLICIDADE', ['H1', 'H2'], '#H']
+Restricao 4 - ['IF', ['V1', 'V2', 'V5', 'V4'], '#H']
+Restricao 5 - ['IF', ['V2', 'V1', 'V5', 'V4'], '#H']
+Restricao 6 - ['SEM_DUPLICIDADE', ['H1', 'H2'], '#H']
 
 
 Execucao 13
 Fila:
 Restricao 1 - ['IF_P', ['A', 'B', 'V4', 'V5'], '#H']
 Restricao 2 - ['IF_P', ['A', 'B', 'V5', 'V4'], '#H']
-Restricao 3 - ['IF', ['V1', 'V2', 'V4', 'V5'], '#H']
-Restricao 4 - ['IF', ['V2', 'V1', 'V4', 'V5'], '#H']
-Restricao 5 - ['diferenca', ['V4', 'V5'], '#H']
-Restricao 6 - ['SEM_DUPLICIDADE', ['H1', 'H2'], '#H']
+Restricao 3 - ['IF', ['V1', 'V2', 'V5', 'V4'], '#H']
+Restricao 4 - ['IF', ['V2', 'V1', 'V5', 'V4'], '#H']
+Restricao 5 - ['SEM_DUPLICIDADE', ['H1', 'H2'], '#H']
 
 
 Execucao 14
 Fila:
 Restricao 1 - ['IF_P', ['A', 'B', 'V5', 'V4'], '#H']
-Restricao 2 - ['IF', ['V1', 'V2', 'V4', 'V5'], '#H']
-Restricao 3 - ['IF', ['V2', 'V1', 'V4', 'V5'], '#H']
-Restricao 4 - ['diferenca', ['V4', 'V5'], '#H']
-Restricao 5 - ['SEM_DUPLICIDADE', ['H1', 'H2'], '#H']
+Restricao 2 - ['IF', ['V1', 'V2', 'V5', 'V4'], '#H']
+Restricao 3 - ['IF', ['V2', 'V1', 'V5', 'V4'], '#H']
+Restricao 4 - ['SEM_DUPLICIDADE', ['H1', 'H2'], '#H']
 
 
 Execucao 15
 Fila:
-Restricao 1 - ['IF', ['V1', 'V2', 'V4', 'V5'], '#H']
-Restricao 2 - ['IF', ['V2', 'V1', 'V4', 'V5'], '#H']
-Restricao 3 - ['diferenca', ['V4', 'V5'], '#H']
-Restricao 4 - ['SEM_DUPLICIDADE', ['H1', 'H2'], '#H']
+Restricao 1 - ['IF', ['V1', 'V2', 'V5', 'V4'], '#H']
+Restricao 2 - ['IF', ['V2', 'V1', 'V5', 'V4'], '#H']
+Restricao 3 - ['SEM_DUPLICIDADE', ['H1', 'H2'], '#H']
 
 
 Execucao 16
 Fila:
-Restricao 1 - ['IF', ['V2', 'V1', 'V4', 'V5'], '#H']
-Restricao 2 - ['diferenca', ['V4', 'V5'], '#H']
-Restricao 3 - ['SEM_DUPLICIDADE', ['H1', 'H2'], '#H']
-
-
-Execucao 17
-Fila:
-Restricao 1 - ['diferenca', ['V4', 'V5'], '#H']
+Restricao 1 - ['IF', ['V2', 'V1', 'V5', 'V4'], '#H']
 Restricao 2 - ['SEM_DUPLICIDADE', ['H1', 'H2'], '#H']
 
 
-Execucao 18
+Execucao 17
 Fila:
 Restricao 1 - ['SEM_DUPLICIDADE', ['H1', 'H2'], '#H']Execucao 1
 Fila:

@@ -9,7 +9,7 @@ class Grafo():
         self.turmas = []
         self.salas = []
         self.horarios = []
-        self.professore = []
+        self.professores = []
         self.dominios = []
         self.vizinhos = []
         self.restricoes = []
