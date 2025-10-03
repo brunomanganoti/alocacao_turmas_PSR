@@ -1,0 +1,44 @@
+{
+    "restricoes": {
+        "C1": {
+            "tipo": "IF", 
+            "variaveis": ["V4", "V5", "V1", "V2"],
+            "categoria": "#H"
+        },
+        "C2": {
+            "tipo": "capacidade", 
+            "variaveis": ["V1", "A"], 
+            "categoria": "#H"
+        },
+        "C3": {
+            "tipo": "capacidade", 
+            "variaveis": ["V2", "B"], 
+            "categoria": "#H"
+        },
+        "C4":{
+            "tipo": "diferenca_S",
+            "variaveis": ["V3", "Lab1"], 
+            "categoria": "#S"
+        },
+        "C5":{
+            "tipo": "IF_S", 
+            "variaveis": ["V4", "H1", "V1", "V3"], 
+            "categoria": "#H"
+        },
+        "C6":{
+            "tipo": "diferenca", 
+            "variaveis": ["V4", "V5"], 
+            "categoria": "#H"
+        },
+        "C7":{
+            "tipo": "IF_P", 
+            "variaveis": ["A", "B", "V4", "V5"], 
+            "categoria": "#H"
+        },
+        "C8":{
+            "tipo": "SEM_DUPLICIDADE", 
+            "variaveis": ["H1", "H2", "H3"], 
+            "categoria": "#H"
+        }
+    }
+}
