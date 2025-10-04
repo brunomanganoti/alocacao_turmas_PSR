@@ -1,0 +1,17 @@
+% instancia_dificil.dzn
+NTURMAS = 3;
+NSALAS = 3;
+NHORARIOS = 3;
+
+is_optimization_problem = true; % Problema de OTIMIZAÇÃO
+
+% Mapeamento: A=1, B=2, C=3 | S1=1, S2=2, Lab1=3 | H1..3=1..3 | P1=1, P2=2
+alunos_turma = [30, 25, 20];
+capacidade_sala = [30, 25, 20];
+professor_turma = [1, 2, 1];
+
+% Constantes
+TurmaA = 1;
+TurmaC = 3;
+SalaLab1 = 3;
+HorarioH1 = 1;

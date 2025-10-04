@@ -1,0 +1,17 @@
+% instancia_facil.dzn
+NTURMAS = 2;
+NSALAS = 2;
+NHORARIOS = 2;
+
+is_optimization_problem = false; % Problema de satisfação
+
+% Mapeamento: A=1, B=2 | S1=1, S2=2 | H1=1, H2=2 | P1=1
+alunos_turma = [20, 20];
+capacidade_sala = [30, 30];
+professor_turma = [1, 1];
+
+% Constantes (com valores fictícios quando não aplicável)
+TurmaA = 1;
+TurmaC = 99; 
+SalaLab1 = 99; 
+HorarioH1 = 1;
