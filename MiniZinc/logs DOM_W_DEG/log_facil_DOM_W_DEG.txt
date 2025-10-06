@@ -1,0 +1,27 @@
+% Generated FlatZinc statistics:
+%%%mzn-stat: paths=0
+%%%mzn-stat: flatIntVars=4
+%%%mzn-stat: flatIntConstraints=3
+%%%mzn-stat: method="minimize"
+%%%mzn-stat: flatTime=0.11281
+%%%mzn-stat-end
+Solucao encontrada:
+Turma 1: Sala = 1, Horario = 1
+Turma 2: Sala = 1, Horario = 2
+
+Violacao da Restricao C4 (preferencia): false
+----------
+==========
+%%%mzn-stat: initTime=0.0005592
+%%%mzn-stat: solveTime=9.77e-05
+%%%mzn-stat: solutions=1
+%%%mzn-stat: variables=5
+%%%mzn-stat: propagators=1
+%%%mzn-stat: propagations=1
+%%%mzn-stat: nodes=4
+%%%mzn-stat: failures=1
+%%%mzn-stat: restarts=0
+%%%mzn-stat: peakDepth=3
+%%%mzn-stat-end
+%%%mzn-stat: nSolutions=1
+%%%mzn-stat-end

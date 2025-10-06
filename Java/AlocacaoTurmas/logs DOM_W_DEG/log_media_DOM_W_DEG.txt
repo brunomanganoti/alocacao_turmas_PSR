@@ -1,0 +1,24 @@
+--- RESULTADOS | INSTÂNCIA: media | HEURÍSTICA: DOM_W_DEG ---
+
+Solucao encontrada:
+Turma 1: Sala = 1, Horario = 1
+Turma 2: Sala = 1, Horario = 2
+Turma 3: Sala = 2, Horario = 1
+
+Violacao da Restricao C4: false
+
+--- ESTATÍSTICAS ---
+Tempo de resolução: 0.0180068 segundos
+Nós da árvore de busca: 6
+Backtracks: 0
+Falhas: 0
+- Complete search - 1 solution found.
+	Model[Alocacao de Turmas]
+	Solutions: 1
+	Building time : 0,071s
+	Resolution time : 0,024s
+	Nodes: 6 (254,3 n/s) 
+	Backtracks: 0
+	Backjumps: 0
+	Fails: 0
+	Restarts: 0

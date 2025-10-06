@@ -1,3 +1,0 @@
-% dados_professor.dzn
-NTURMAS = 2;
-professor_turma = [1, 1];

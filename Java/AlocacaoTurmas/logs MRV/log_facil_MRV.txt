@@ -1,0 +1,23 @@
+--- RESULTADOS | INSTÂNCIA: facil | HEURÍSTICA: MRV ---
+
+Solucao encontrada:
+Turma 1: Sala = 1, Horario = 1
+Turma 2: Sala = 1, Horario = 2
+
+Violacao da Restricao C4: false
+
+--- ESTATÍSTICAS ---
+Tempo de resolução: 0.0180242 segundos
+Nós da árvore de busca: 4
+Backtracks: 0
+Falhas: 0
+- Complete search - 1 solution found.
+	Model[Alocacao de Turmas]
+	Solutions: 1
+	Building time : 0,062s
+	Resolution time : 0,024s
+	Nodes: 4 (166,8 n/s) 
+	Backtracks: 0
+	Backjumps: 0
+	Fails: 0
+	Restarts: 0
